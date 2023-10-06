@@ -66,7 +66,7 @@ train_shortscan(:,:,rd) = [];
 size1 = size(DFC_short_train);
 size2 = size(DFC_short_test);
 
-
+%%model training
 for i = 1:15
 for j = (i+1):15
         
